@@ -1,8 +1,12 @@
 .o_list_view .o_list_table thead {
     position: sticky;
     top: 0;
-    z-index:999;
+    z-index:3;
 }
 .o_list_view .table-responsive .table thead{
-z-index: 1;
+    z-index: 1;
+}
+
+.o_form_view .o_form_sheet_bg .o_form_statusbar {
+    z-index: 2 !important;
 }
